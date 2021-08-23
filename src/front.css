@@ -1,0 +1,12 @@
+.front {
+    flex: 0.35;
+    background-color: #fff;
+}
+
+.front__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ededed;
+    flex-direction: column;
+}
