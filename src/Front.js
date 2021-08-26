@@ -23,12 +23,12 @@ const MyButton = styled(Button)({
 
 
 
-export default function Checkboxes() {
-    const [checked, setChecked] = React.useState(true);
+export default function Front() {
+    // const [checked, setChecked] = React.useState(true);
 
-    const handleChange = (event) => {
-        setChecked(event.target.checked);
-      };
+    // const handleChange = (event) => {
+    //     setChecked(event.target.checked);
+    //   };
 
 
   return (
