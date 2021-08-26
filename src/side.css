@@ -1,0 +1,21 @@
+.side__container {
+    padding: 2.5%;
+}
+
+.side__title {
+    font-size: 24px;
+}
+
+.side__body {
+    font-size: 15px;
+    padding-top: 50px;
+}
+
+.side__end {
+    font-size: 15px;
+    padding-top: 25px;
+}
+
+.font__size {
+    font-size: 20px;
+}

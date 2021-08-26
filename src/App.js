@@ -1,4 +1,5 @@
 import Front from './Front';
+import Side from './Side';
 import './App.css';
 
 function App() {
@@ -6,9 +7,7 @@ function App() {
     <div className="App">
       <div className='app__body'>
         <Front />
-        {/* Side*/}
-        {/* Advisor*/}
-        {/*Help */}
+        <Side />
 
       </div>
       
