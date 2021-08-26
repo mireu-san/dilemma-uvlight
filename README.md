@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+목표 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. 메인 페이지(Frontpage)를 위한 기본적인 레이아웃 구성
+1.1 Header --> O
+1.2 Body   --> ?
+1.3 Footer --> NOT YET
 
-## Available Scripts
+2. 메인 페이지를 위한 레이아웃 내용(기능, 링크, 위치) 구성
+2.1 Header 의 주요메뉴 및 레이아웃 위치 css --> O
+2.2 Body 의 내용 및 레이아웃 위치 css --> Not yet
+2.3 Footer 의 CSS 레이아웃 위치 --> Not yet
 
-In the project directory, you can run:
+3. 메인 페이지에서 다른 페이지로 갈 수 있도록 하는 기능 구성.
+3.1 우선 이동 메뉴 링크 생성
+3.2 이동 메뉴 링크 클릭 시, advisor 페이지로 이동.
+3.3 advisor 페이지로 이동 가능하도록, 링크 연결 구성.
 
-### `npm start`
+4. advisor 페이지를 위한 기본적인 레이아웃 구성.
+4.1 여긴 css 보다도 그냥 초간단하게 '내가 추천하는 제품' 만 보여주도록 하기.
+4.2 가격대 10만원 미만 vs 10만원 이상 제품으로 분류 구성. (SPA 기능, 생활코딩 또는 SPA 구글링 참고!)
+4.3 가격대 10만원 미만 - UV Lamp, UV LED
+4.4 가격대 10만원 이상 - 젓병소독기 라인들
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+5. Q&A 페이지
+5.1 UV 살균기 구매 고려 시, 알아야 할 점에 대한 내용 설명.
+5.2 UV 살균기는 램프, LED 두가지가 있다. 가장 문제 없지만 돈이 많이 드는 게 LED. 반대는 램프.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+최종적으로 페이지 구성은 다음과 같음.
 
-### `npm test`
+(1)메인페이지 -> (2) advisor 페이지
+(1)메인페이지 -> (3) Q&A 페이지
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+메인페이지에서 advisor 와 Q&A 페이지로 갈 수 있도록 구성.
+================
+이게 끝나고 나면?
+SPA 기능 추가 할 곳 검토. 및, 이걸 그대로 해서 css in js 로 구현해보기.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+그 외, container 부분 테두리를 좀 간지나게 템플릿 배껴서 구현해보기. 

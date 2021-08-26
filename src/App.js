@@ -6,8 +6,10 @@ function App() {
     <div className="App">
       <div className='app__body'>
         <Front />
+        {/* Side*/}
         {/* Advisor*/}
         {/*Help */}
+
       </div>
       
     </div>
