@@ -11,6 +11,7 @@
     flex-direction: column;
 }
 
+
 .front__body {
     display: flex;
     justify-content: space-between;
